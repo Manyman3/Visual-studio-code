@@ -1,0 +1,79 @@
+* {
+    padding: 0rem;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    background:linear-gradient(to bottom,blue, yellow);
+    padding: .8rem;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid white;
+}
+.logo {
+    width: 4rem;
+}
+
+.nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.input {
+    border: none;
+    border-bottom: 2px solid black;
+    background: inherit;
+    color: aliceblue;
+    width: 20rem;
+}
+
+.product {
+    margin: .8rem;
+}
+
+
+
+.product-img {
+    width: 60%;
+}
+.button {
+    width: 8rem;
+    border-radius: 2rem;
+    background: aquamarine;
+}
+.product-discription {
+    margin: .8rem;
+}
+.paragraph {
+    margin: .8rem;
+}
+.table-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: .5rem;
+    
+}
+
+.main {
+display: flex;
+justify-content: space-between;
+margin: 1rem;
+}
+.footer-title {
+    box-sizing: border-box;
+    margin: 1rem;
+    align-items: center;
+    border: 2px solid black;
+    
+}
