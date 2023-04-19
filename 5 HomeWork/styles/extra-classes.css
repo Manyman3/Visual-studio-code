@@ -24,3 +24,10 @@
 .paragraph {
     color: var(--primary-text-color);
 }
+
+.upper {
+    text-transform: uppercase;
+}
+.mt-60 {
+    margin-top: 60px;
+}
