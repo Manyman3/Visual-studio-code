@@ -1,0 +1,146 @@
+@import url("./variables.css");
+@import url("./extra-classes.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+#app {
+    background: var(--primary-bg);
+    width: 1512px;
+    padding: calc(var(--padding-l) + 6px);
+    font-family: var(--primary-ff);
+}
+
+.logo {
+    width: 94px;
+    height: 54px;
+}
+
+.nav {
+    width: 516px;
+}
+
+.nav-link {
+    font-size: var(--fs-s);
+    color: var(--primary-text-color);
+}
+
+.icons {
+    width: 88px;
+    display: flex;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.main {
+    margin-top: var(--margin-xxxl);
+}
+
+.info {
+    width: 718px;
+}
+
+.main__title {
+    margin-top: 0px;
+    font-size: var(--fs-xl);
+}
+
+.main__paragraph {
+    font-size: var(--fs-s);
+    margin-top: var(--margin-m);
+}
+
+.poster {
+    width: 655px;
+    height: 655px;
+}
+
+.about-us__poster {
+    width:560px;
+    height:664px;
+}
+
+.button-wrapper {
+    margin-top: calc(var(--margin-xxl) + 8px); 
+}
+
+.button {
+    font-size: var(--fs-s);
+    padding: 18px 67px;
+    border: 1px solid var(--secondary-text-color);
+    background: inherit;
+}
+
+.about-us > .info {
+    width: 564px;
+}
+
+.about-us > .info > .paragraph {
+    margin-top: var(--margin-l);
+    font-size: var(--fs-s);
+}
+
+.benefits {
+    margin-top: var(--margin-xxl);
+}
+.ben-title , .title-title__catalog {
+    font-size: var(--fs-l);
+    font-family: nanum;
+    margin-top: var(--margin-xxl);
+}
+.benefit {
+    margin-top: var(--margin-xxl);
+}
+
+.us-poster {
+    width:48px;
+    height: 48px;
+    margin-right: var(--margin-m);
+    
+}
+
+.benefits-title {
+    font-size: var(--fs-s);
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.benefits-transkription {
+    margin-top: var(--margin-s);
+    font-size: var(--fs-xs);
+}
+
+.banner__img {
+    margin-top: var(--margin-xxxl);
+    width: 100%;
+}
+
+.title-title__catalog , .catalog-info {
+    margin-top: var(--margin-xxl);
+}
+.title-catalog{
+font-size: var(--fs-m);
+margin-top: var(--margin-xxl);
+display: flex;
+justify-content: center;
+}
+
+.catalog_image {
+    width:  440px;
+    height: 440px;
+}
+
