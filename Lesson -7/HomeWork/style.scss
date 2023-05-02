@@ -1,0 +1,320 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  margin-top: 15px;
+}
+
+#app {
+  // height: 100vh;
+  overflow-x: hidden;
+  width: 1920px;
+  height: 4755px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 40px;
+  // margin-left: 460px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 465px;
+  height: 22px;
+}
+
+.nav-link {
+  height: 22px;
+}
+
+.preview {
+  display: flex;  
+  justify-content: space-around;
+  margin-top: 40px;
+  margin-left: 460px;
+}
+
+input {
+  border: none;
+  background: lightgray;
+  width: 405px;
+  height: 40px;
+  border-radius: 16px;
+  padding: 8px;
+  color: darkmagenta;
+
+}
+
+.buy-icon {
+  width: 37px;
+  height: 43px;
+  background: red;
+}
+
+.general__image {
+  width: 1920px;
+  height: 900px;
+  margin-top: 9px;
+}
+
+.about-us , .last-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+
+.title , .last-title {
+  font-size: 18px;
+  margin-top: 151px;
+  align-items: center;
+  
+}
+
+.transcription {
+  width: 818px;
+  height: 90;
+  font-size: 18px;
+  margin-top: 60px;
+
+  text-align: center;
+}
+
+.nav-product {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 999px;
+  height: 39px;
+  margin-top: 120px;
+  margin-left: 460px;
+  gap: 10px;
+}
+
+.border {
+  border: 1px solid black;
+  padding: 8px;
+  margin-left: 38px;
+  background: rgba(116, 145, 125, 1);
+  color: white;
+}
+.border:first-child {
+  background: inherit;
+  color: black;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.ml {
+  margin-left: 460px;
+}
+
+.assortiment {
+  display: flex;
+  text-align: center;
+  margin-left: 399px;
+}
+
+.product {
+  margin: 61px;
+}
+.product__img {
+  margin-top: 60px;
+   width: 291px;
+   height: 448px;
+}
+
+.product-paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.paragraph__product {
+  text-align: center;
+}
+
+.availability {
+  color: red;
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 131px;
+  margin-top: 20px;    
+}
+
+.btn-cost {
+  width: 95px;
+  height: 29px;
+  background: #171717;
+  color: white;
+}
+
+.availability:first-child {
+  color: green;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  background: darkmagenta;
+  width: 1920px;
+  height: 488px;
+  margin-top: 103px;
+  gap: 80px;
+  
+}
+
+.person-reviews {
+  border: 1px solid black;
+  width: 300px;
+  height: 374px;
+  padding: 26px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  
+}
+
+.person-title {
+  margin-top: 46.6px;
+}
+
+.grade {
+  margin-top: 20px;
+}
+
+.reviews {
+  margin-top: 40px;
+}
+
+.reviews-text {
+  color: green;
+  margin-top: 60px;
+}
+
+.contact-info {
+  margin-left: 630px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  background: inherit;
+  align-items: center;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid black;
+  padding: .8rem  2rem;
+  margin-top: 57px;
+  width: 700px;
+  color: black;
+}
+
+.massage {
+  border: 1px solid black;
+  border-radius: 0px;
+  background: inherit;
+  color: black;
+  width: 700px;
+  height: 134px;
+  margin-top: 40px;
+  margin-left: 630px;
+
+}
+
+.footer-title {
+  margin-top: 120px;
+}
+
+
+.info{
+display: flex;
+justify-content: space-between;
+margin-left: 430px;
+width: 907px;
+height: 92px;
+
+}
+
+.info-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  align-items: center;
+}
+
+.contact-footer , .namber {
+  margin: 10px;
+}
+
+.privace-policy {
+  margin-top: 110px;
+}
+
+.all-rights {
+  margin-top: 23px;
+}
+
+.list-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.product__image {
+  width: 600px;
+  padding: 1rem;
+}
+
+.info-product {
+align-items: center;
+}
+
+.product-title {
+margin-top: 50px;
+ text-align: center;
+ font-size: 32px;
+}
+
+.frame {
+  text-align: center;
+  margin-top: 50px;
+  width: 500px;
+}
+
+.buy-product {
+  margin-top: 60px;
+  width: 150px;
+  height: 50px;
+  position: relative;
+  right: 430px;
+  top: 300px;
+}

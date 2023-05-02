@@ -1,0 +1,287 @@
+@import url("./variables.css");
+@import url("./extra-classes.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+#app {
+    background: var(--primary-bg);
+    width: 1512px;
+    padding: calc(var(--padding-l) + 6px);
+    font-family: var(--primary-ff);
+    overflow-x: hidden;
+}
+
+.logo {
+    width: 94px;
+    height: 54px;
+}
+
+.nav {
+    width: 516px;
+}
+
+.nav-link {
+    font-size: var(--fs-s);
+    color: var(--primary-text-color);
+}
+
+.icons {
+    width: 88px;
+    display: flex;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.main {
+    margin-top: var(--margin-xxxl);
+}
+
+.info {
+    width: 718px;
+}
+
+.main__title {
+    margin-top: 0px;
+    font-size: var(--fs-xl);
+}
+
+.main__paragraph {
+    font-size: var(--fs-s);
+    margin-top: var(--margin-m);
+}
+
+.poster {
+    width: 655px;
+    height: 655px;
+}
+
+.about-us__poster {
+    width:560px;
+    height:664px;
+}
+
+.button-wrapper {
+    margin-top: calc(var(--margin-xxl) + 8px); 
+}
+
+.button {
+    font-size: var(--fs-s);
+    padding: 18px 67px;
+    border: 1px solid var(--secondary-text-color);
+    background: inherit;
+}
+
+.about-us > .info {
+    width: 564px;
+}
+
+.about-us > .info > .paragraph {
+    margin-top: var(--margin-l);
+    font-size: var(--fs-s);
+}
+
+.benefits {
+    margin-top: var(--margin-xxl);
+}
+.ben-title , .title-title__catalog , .title  {
+    font-size: var(--fs-l);
+    font-family: nanum;
+    margin-top: var(--margin-xxl);
+}
+.benefit {
+    margin-top: var(--margin-xxl);
+}
+
+.us-poster {
+    width:48px;
+    height: 48px;
+    margin-right: var(--margin-m);
+    
+}
+
+.benefits-title {
+    font-size: var(--fs-s);
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.benefits-transkription {
+    margin-top: var(--margin-s);
+    font-size: var(--fs-xs);
+}
+
+.banner__img {
+    margin-top: var(--margin-xxxl);
+    width: 100%;
+}
+
+.title-title__catalog , .catalog-info {
+    margin-top: var(--margin-xxl);
+}
+.title-catalog ,.bestsellers-title {
+font-size: var(--fs-m);
+margin-top: var(--margin-xxl);
+display: flex;
+justify-content: center;
+}
+
+.catalog_image {
+    width:  440px;
+    height: 440px;
+}
+
+.title {
+    text-align: center;
+}
+
+.coment:not(.coment:last-child) {
+    margin-top: var(--margin-xxl);
+    padding: var(--padding-m);
+    width: calc(474px - var(--margin-xxl));
+    background: var(--secondary-bg) ;
+}
+
+.coment:first-child {
+    position: relative;
+    top: 50px;
+    left: 200px;
+    margin-right: var(--margin-s);
+}
+
+.coment:nth-child(2) {
+    position: relative;
+    left: 200px;
+}
+
+.coment:last-child {
+    margin-top: var(--margin-xxl);
+    padding: var(--padding-m);
+    width: calc(474px - var(--margin-xxl));
+    border: 1px solid black;
+    position: relative;
+    top: 220px;
+    right: 480px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    
+}
+
+.person {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.person__name {
+    color: var(--primary-text-color);
+    font-size: var(--fs-m);
+    font-family: var(--secondary-ff);
+}
+
+.person__coment {
+    margin-top: var(--margin-m);
+}
+
+.bestsellers-title {
+    margin-top: 350px;
+    font-size: var(--fs-l);
+}
+
+.catalog-price , .catalog-buy-img {
+    margin-top: 55px;
+}
+
+.catalog-buy-img {
+    border: 1px solid black;
+}
+
+.catalog-button {
+    margin-top: 197px;
+}
+
+.button__catalog {
+    width: 8rem;
+    height: 4rem;
+    background: #F5F5F5;
+}
+
+.media__logo {
+    width: 94px;
+    height: 54px;
+}
+
+.logo-social {
+justify-content: flex-start;
+}
+
+.order-wrapper {
+    margin-top: var(--margin-xxl);
+    width: 1512px;
+    height: 800px;
+    background: url(../public/images/backgrounds/background-1.png);
+}
+.data {
+    display: flex;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 56px;
+    justify-content: first baseline;
+}
+
+.input__data {
+    border: none;
+    border-bottom: 1px solid #000;
+    background: inherit;
+}
+.individual-order {
+    margin-top: 2rem;
+    
+}
+
+.individual__order {
+    color: black;
+    padding: 1rem;
+    font-size: 42px;
+    margin-left: 56px;
+}
+
+.button__foto {
+    margin-left: 56px;
+    margin-top: 2rem;
+    width: 191px;
+    height: 48px;
+    background: #777777;
+}
+
+.send-application {
+    margin-top: 60px;
+    margin-left: 56px;
+    border: 1px solid black;
+    font-size: var(--fs-s);
+    width: 170px;
+}
+
+.our-manager {
+    margin-top: 45px;
+    margin-left: 56px;
+    font-size: var(--fs-xs);
+    color: var(--primary-text-color);
+}
